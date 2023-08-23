@@ -19,6 +19,6 @@ app.use("/*", (req, res) => {
 
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
-mongoose.connect('mongodb+srv://kirattechnologies:iRbi4XRDdM7JMMkl@cluster0.e95bnsi.mongodb.net/admin?authSource=admin&replicaSet=atlas-ue73sj-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
+mongoose.connect('mongodb+srv://Rishabh:rishabhh2000@cluster0.y3qq1cu.mongodb.net/codex', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "codex" });
 
 app.listen(3000, () => console.log('Server running on port 3000'));
