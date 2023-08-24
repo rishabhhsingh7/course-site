@@ -32,7 +32,7 @@ function Appbar({}) {
             navigate("/");
           }}
         >
-          <Typography variant={"h6"}>Coursera</Typography>
+          <Typography variant={"h6"}>Codex</Typography>
         </div>
 
         <div style={{ display: "flex" }}>
@@ -65,8 +65,8 @@ function Appbar({}) {
                   isLoading: false,
                   userEmail: null,
                 });
-                window.location.reload();
                 navigate("/");
+                window.location.reload();
               }}
             >
               Logout
