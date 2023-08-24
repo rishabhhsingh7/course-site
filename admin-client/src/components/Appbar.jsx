@@ -91,7 +91,7 @@ function Appbar({}) {
             navigate("/");
           }}
         >
-          <Typography variant={"h6"}>Coursera</Typography>
+          <Typography variant={"h6"}>Codex</Typography>
         </div>
 
         <div style={{ display: "flex" }}>
