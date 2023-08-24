@@ -65,6 +65,8 @@ function Appbar({}) {
                   isLoading: false,
                   userEmail: null,
                 });
+                window.location.reload();
+                navigate("/");
               }}
             >
               Logout
