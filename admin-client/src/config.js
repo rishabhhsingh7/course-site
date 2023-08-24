@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://aws.rscode.in';
+export const BASE_URL = 'https://codex.rscode.in';
